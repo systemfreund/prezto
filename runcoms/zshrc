@@ -12,3 +12,10 @@ fi
 
 # Customize to your needs...
 
+unsetopt correct
+
+. $HOME/bin/npm_completion.sh
+
+alias pse="COLUMNS=1000 ps -e -o pid,user,command"
+alias cd..=..
+alias cd.=..
