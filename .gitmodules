@@ -4,6 +4,3 @@
 [submodule "modules/syntax-highlighting/external"]
 	path = modules/syntax-highlighting/external
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
-[submodule "modules/completion/external"]
-	path = modules/completion/external
-	url = https://github.com/systemfreund/zsh-completions.git
