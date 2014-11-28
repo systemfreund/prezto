@@ -10,7 +10,8 @@ if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
 
-#export JAVA_HOME=$(/usr/libexec/java_home)
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
-export M2_HOME=/usr/local/Cellar/maven/3.1.1/libexec
-export GOPATH=$HOME/src/go
+export JAVA8_HOME=$(/usr/libexec/java_home)
+export JAVA_HOME=$(/usr/libexec/java_home -v1.7)
+export ANDROID_HOME=/usr/local/opt/android-sdk
+#export M2_HOME=/usr/local/Cellar/maven/3.2.3/libexec
+#export GOPATH=$HOME/src/go

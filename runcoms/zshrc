@@ -19,3 +19,5 @@ unsetopt correct
 alias pse="COLUMNS=1000 ps -e -o pid,user,command"
 alias cd..=..
 alias cd.=..
+function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
+
